@@ -4,7 +4,7 @@ import os
 
 lst_imgs = [i for i in glob.glob("*.jpg")]#add preferred image extension here 
  
-# It creates a folder called ltl if does't exist
+# It creates a folder called Resized Folder if does't exist
 if not "Resized Folder" in os.listdir():
 	os.mkdir("Resized Folder")
  
